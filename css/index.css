@@ -1,0 +1,67 @@
+body {
+    margin: 0px;
+    font-family: 'Rowdies', cursive;
+    background-image: url(../images/subway.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFEBAD;
+}
+
+#container-div {
+    margin: 50px auto;
+    width: 500px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #A5F1E9;
+}
+
+h1, h2, p {
+    text-shadow: 0px 0px 7px black;
+}
+
+#count-el {
+    color: white;
+    font-size: 50px;
+}
+
+#save-el {
+    font-size: 30px;
+    margin-top: 55px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    font-size: 30px;
+    font-family: 'Rowdies', cursive;
+    width: 130px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px black;
+}
+
+#add-btn {
+    background-color: #3aaca1;
+    color: #FFEBAD;
+}
+
+#add-btn:hover {
+    background-color: #FFEBAD;
+    color: #3aaca1;
+}
+
+#save-btn {
+    background-color: #28ed6d;
+    color: #ffdb24;
+}
+
+#save-btn:hover {
+    background-color: #ffdb24;
+    color: #28ed6d;
+}
+
+#clear-btn:hover {
+    background-color: black;
+    color: white;
+}
